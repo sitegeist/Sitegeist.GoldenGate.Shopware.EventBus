@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element required="true" type="text">
+            <name>notify_article_url</name>
+            <label lang="de">Notify article url</label>
+            <label lang="en">Notify article url</label>
+            <value>neos/sitegeist/goldengate/events/product</value>
+            <description lang="de">Beispiel: http://localhost:3169/sitegeist/goldengate/events/product</description>
+            <description lang="en">Example: http://localhost:3169/sitegeist/goldengate/events/product</description>
+        </element>
+        <element required="true" type="text">
+            <name>notify_category_url</name>
+            <label lang="de">Notify category url</label>
+            <label lang="en">Notify category url</label>
+            <value>neos/sitegeist/goldengate/events/category</value>
+            <description lang="de">Beispiel: http://localhost:3169/sitegeist/goldengate/events/category</description>
+            <description lang="en">Example: http://localhost:3169/sitegeist/goldengate/events/category</description>
+        </element>
+    </elements>
+</config>

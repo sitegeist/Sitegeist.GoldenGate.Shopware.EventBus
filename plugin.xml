@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="de">Sitegeist GoldenGate Shopware Event Bus</label>
+    <label lang="en">Sitegeist GoldenGate Shopware Event Bus</label>
+
+    <version>1.0.0</version>
+    <link>http://sitegeist.de</link>
+    <author>sitegeist media solutions GmbH</author>
+    <copyright>(c) by sitegeist media solutions GmbH</copyright>
+    <license>proprietary</license>
+    <compatibility minVersion="5.2.0" />
+
+    <changelog version="1.1.0">
+        <changes lang="de">Veröffentlichung</changes>
+        <changes lang="en">Release</changes>
+    </changelog>
+
+</plugin>
