@@ -13,10 +13,6 @@ use SitegeistGoldenGateShopwareEventBus\Components\ArticleEventHandler;
  */
 class ArticleSubscriber implements EventSubscriber
 {
-    public function __construct()
-    {
-    }
-
     /**
      * Returns an array of events this subscriber wants to listen to.
      *
